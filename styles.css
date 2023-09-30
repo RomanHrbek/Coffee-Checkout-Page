@@ -1,0 +1,71 @@
+
+.header {
+    background-color: #442C1C;
+    color: #F8F0C0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#logo {
+    height: 45px;
+    width: 45px;
+    margin-top: 20px;
+    margin-right: 7px;
+}
+
+.items-container {
+    background-color: rgb(238, 225, 213);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.name-group {
+    position: relative;
+    display: inline-block;
+  }
+
+  .name-input {
+    border-color: crimson;
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  .input-label {
+    background-color: white;
+    color: crimson;
+    font-size: 11px;
+    position: absolute;
+    left: 25px;
+    top: -7px;
+    padding: 0 2px;
+  }
+
+/* colors pallete 
+#EBE7DF 
+#DBBB93 
+#A98259 
+#B7967B
+*/
+
