@@ -51,26 +51,42 @@
 
     <div class="name-container">
         <div class="name-group">
-            <label for="name" class="input-label">Name for order</label>
+            <h2 class="items-header">NAME</h2>
+            <label for="ordername" class="name-label">Name for order</label>
             <input id="ordername" class="name-input" placeholder="Name" />
         </div>
     </div>
 
     <div class="payment">
+        <div class="payment-group">
+            <h2 class="items-header">PAYMENT</h2>
+            <label for="cardnumber" class="cardnumber-label">Card number</label>
+            <input id="cardnumber" class="cardnumber-input" placeholder="Card number" />
+            <label for="ccv" class="ccv-label">CCV number</label>
+            <input id="ccv" class="ccv-input" placeholder="CCV number" />
+        </div>
     </div>
 
     <div class="total">
+        <table class="table-total">
+            <tr>
+                <td class="table-column1">Subtotal</td>
+                <td class="table-column2">$19.27</td>
+            </tr>
+            <tr>
+                <td class="table-column1">Tax:</td>
+                <td class="table-column2">$0.96</td>
+            </tr>
+            <tr class="total-bold">
+                <td class="table-column1">Total:</td>
+                <td class="table-column2">$20.23</td>
+            </tr>
+          </table>
     </div>
 
     <div class="order">
-
+<button class="placeorder-btn">Place order</button>
     </div>
-
-
-
-
-
-
 
     <script src="index.js"></script>
 </body>

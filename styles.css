@@ -16,51 +16,103 @@
 
 .items-container {
     background-color: rgb(238, 225, 213);
+    font-family: 'Open Sans', sans-serif;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .name-group {
-    position: relative;
-    display: inline-block;
+    background-color: rgb(238, 225, 213);
   }
 
   .name-input {
-    border-color: crimson;
+    border-color: #442C1C;
+    background-color: rgb(238, 225, 213);
     padding: 8px;
-    border-radius: 5px;
+    border-radius: 20px;
   }
 
-  .input-label {
-    background-color: white;
-    color: crimson;
+  .name-label {
+    background-color: rgb(238, 225, 213);
+    color: #442C1C;
     font-size: 11px;
-    position: absolute;
-    left: 25px;
-    top: -7px;
+    position: relative;
+    left: 100px;
+    top: -17px;
     padding: 0 2px;
   }
+
+  .payment-group {
+    background-color: rgb(238, 225, 213);
+    
+  }
+
+  .cardnumber-input {
+    border-color: #442C1C;
+    background-color: rgb(238, 225, 213);
+    padding: 8px;
+    border-radius: 20px;
+  }
+
+  .cardnumber-label {
+    background-color: rgb(238, 225, 213);
+    color: #442C1C;
+    font-size: 11px;
+    position: relative;
+    left: 100px;
+    top: -17px;
+    padding: 0 2px;
+  }
+
+  .ccv-input {
+    border-color: #442C1C;
+    background-color: rgb(238, 225, 213);
+    padding: 8px;
+    border-radius: 20px;
+  }
+
+  .ccv-label {
+    background-color: rgb(238, 225, 213);
+    color: #442C1C;
+    font-size: 11px;
+    position: relative;
+    left: 100px;
+    top: -17px;
+    padding: 0 2px;
+  }
+
+  .table-total {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 1cm;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(51, 51, 51);
+  }
+
+  .table-column1 {
+    padding-right: 150px;
+  }
+
+  .table-column2 {
+    padding-left: 150px;
+    text-align: end;
+  }
+
+  .placeorder-btn {
+    background-color: #dab394;
+    width: 100% ;
+    height: 35px;
+    border-color: transparent;
+    border-radius: 15px;
+    font-size: 16px;
+    color: rgb(41, 38, 38);
+  }
+
+  .total-bold {
+    font-weight: bold;
+  }
+
+
 
 /* colors pallete 
 #EBE7DF 
