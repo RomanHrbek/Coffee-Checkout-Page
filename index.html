@@ -15,7 +15,7 @@
         <img id="logo" src="./coffee_masters_logo.png">
         <h1>Coffee Masters</h1>
     </div>
-
+<div class="grid">
     <div class="items-container">
         <h2 class="items-header">ITEMS</h2>
         <ul>
@@ -48,24 +48,25 @@
             </li>
         </ul>
     </div>
+        <div class= "payment-total">
+            <div class="name-container">
+                <div class="name-group">
+                    <h2 class="items-header">NAME</h2>
+                    <label for="ordername" class="name-label">Name for order</label>
+                    <input id="ordername" class="name-input" placeholder="Name" />
+                </div>
+            </div>
 
-    <div class="name-container">
-        <div class="name-group">
-            <h2 class="items-header">NAME</h2>
-            <label for="ordername" class="name-label">Name for order</label>
-            <input id="ordername" class="name-input" placeholder="Name" />
+            <div class="payment">
+                <div class="payment-group">
+                    <h2 class="items-header">PAYMENT</h2>
+                    <label for="cardnumber" class="cardnumber-label">Card number</label>
+                    <input id="cardnumber" class="cardnumber-input" placeholder="Card number" />
+                    <label for="ccv" class="ccv-label">CCV number</label>
+                    <input id="ccv" class="ccv-input" placeholder="CCV number" />
+                </div>
+            </div>
         </div>
-    </div>
-
-    <div class="payment">
-        <div class="payment-group">
-            <h2 class="items-header">PAYMENT</h2>
-            <label for="cardnumber" class="cardnumber-label">Card number</label>
-            <input id="cardnumber" class="cardnumber-input" placeholder="Card number" />
-            <label for="ccv" class="ccv-label">CCV number</label>
-            <input id="ccv" class="ccv-input" placeholder="CCV number" />
-        </div>
-    </div>
 
     <div class="total">
         <table class="table-total">
@@ -83,7 +84,7 @@
             </tr>
           </table>
     </div>
-
+</div>
     <div class="order">
 <button class="placeorder-btn">Place order</button>
     </div>
